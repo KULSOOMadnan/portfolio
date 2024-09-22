@@ -17,7 +17,7 @@ function HeroSection() {
         >
           <h1 className="text-black mb-4 lg:text-7xl lg:leading-normal text-4xl sm:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brown-50 to-brown-900">
-              Hello, I'm
+              Hello, I&apos;m
             </span>{" "}
             <br />
             <TypeAnimation

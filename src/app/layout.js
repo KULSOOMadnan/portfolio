@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Puppies+Play&display=swap"
           rel="stylesheet"
         />
-        <script src="https://kit.fontawesome.com/7575e8f830.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/7575e8f830.js"></script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>

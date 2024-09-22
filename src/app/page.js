@@ -6,7 +6,7 @@ import AboutSection from './components/AboutSection'
 import ProjectsSection from './components/ProjectsSection'
 import EmailSection from './components/EmailSection'
 import Footer from './components/Footer'
-import Helloworld from './components/helloworld'
+import Home from './components/Home'
 function Index () {
   return (
    
@@ -23,7 +23,7 @@ function Index () {
       </containe>
     </main>
 
-    
+  
       
       
   )

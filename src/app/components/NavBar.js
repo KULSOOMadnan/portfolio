@@ -54,7 +54,7 @@ function NavBar() {
           )}
         </div>
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0 font-semibold ">
+          <ul className="md:flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0 font-semibold ">
             {navLinks.map((link, index) => (
               <li key={index} className='border-b-2 border-transparent hover:border-brown-600 transition duration-300'>
                 <NavLink href={link.path} title={link.title} home={link.home} />

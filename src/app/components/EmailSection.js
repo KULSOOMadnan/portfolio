@@ -40,10 +40,10 @@ function EmailSection() {
     <section id='contact' className="grid md:grid-cols-2 my-12 md:my-12 gap-4 py-24 relative">
         {/* <div className=' bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#9c7356] to-white rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2'></div> */}
       <div className='z-1'>
-        <h5 className="text-xl font-bold text-black my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-black my-2">Let&apos;s Connect</h5>
         <p className="text-slate-500 mb-4 max-w-md">
-          I'm currently looking for new opportunities, my inbox is always open,
-          Whether you have a question or just want to say hi, I'll try my best
+          I&apos;m currently looking for new opportunities, my inbox is always open,
+          Whether you have a question or just want to say hi, I&apos;ll try my best
           to get back to you!
         </p>
         <div className="socials flex flex-row gap-2 ">

@@ -54,7 +54,7 @@ function AboutSection() {
   return (
     <section id='about' className="text-[grey]  ">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/Images/about.png" width={500} height={500} />
+        <Image src="/Images/about.png" width={500} height={500} alt='about imag' />
         <div className=' mt-4 md:mt-0 text-left flex  flex-col h-full'>
           <h2 className="text-4xl font-bold text-black mb-4 font-['Great Vibes']">About Me</h2>
           <p className="text-base md:text-lg ">
@@ -65,7 +65,7 @@ function AboutSection() {
             interfaces, utilizing Tailwind CSS and Bootstrap for streamlined
             styling. I enjoy transforming design ideas into seamless experiences
             and continuously expanding my skills to stay at the cutting edge of
-            web development. Whether it's optimizing performance or enhancing
+            web development. Whether it&apos;s optimizing performance or enhancing
             the user experience, I bring creativity and precision to every
             project I work on.
           </p>
