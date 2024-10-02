@@ -56,7 +56,7 @@ function AboutSection() {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/Images/about.png" width={500} height={500} alt='about imag' />
         <div className=' mt-4 md:mt-0 text-left flex  flex-col h-full'>
-          <h2 className="text-4xl font-bold text-black mb-4 font-['Great Vibes']">About Me</h2>
+          <h2 className="text-4xl font-bold text-black mb-4 font-['Great Vibes'] mt-12">About Me</h2>
           <p className="text-base md:text-lg ">
             I am a passionate front-end developer with expertise in React,
             Next.js, JavaScript, and TypeScript, building modern, responsive,
