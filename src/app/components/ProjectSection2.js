@@ -60,10 +60,27 @@ const ProjectsData = [
     tag: ["All" ],
      gitUrl : 'https://github.com/KULSOOMadnan/TacosShop/tree/main/final-project',
     previewUrl :'https://tacos-shop-five.vercel.app/'
+  },{
+    id: 7,
+    title: "Resume Builder",
+    description: "This project is made up of Html css Typescript and Javascript",
+    images: "https://as2.ftcdn.net/v2/jpg/07/61/17/05/1000_F_761170568_JCVYqlrkpW6gH4dGIgblEWCaDLQPcQGt.jpg",
+    tag: ["All" ],
+     gitUrl : 'https://github.com/KULSOOMadnan/resume-builder/tree/main/milestone2',
+    previewUrl :'https://resume-builder-by-kulsoom.vercel.app/'
+  },
+  ,{
+    id: 8,
+    title: "Resume",
+    description: "This project is made up of Html css Typescript  and Javascript",
+    images: "/Images/projects/resumebg.png",
+    tag: ["All" ],
+     gitUrl : 'https://github.com/KULSOOMadnan/resume-builder/tree/main/milestone1',
+    previewUrl :'https://resume-builder-kulsoom.vercel.app/'
   },
 ];
 
-function ProjectsSection() {
+function ProjectsSection2() {
   const [tag , Settag] = useState('All')
   const ref = useRef(null);
   const isView = useInView(ref , {once : true})
@@ -108,16 +125,9 @@ function ProjectsSection() {
         ))}
 
       </ul>
-      <div className='flex justify-center'>
-      <button className=" px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-brown-800 via-brown-600 to-brown-900 text-black  mt-3 ">
-      <span className="block bg-[#ffffff] rounded-full hover:bg-slate-50 px-5 py-2">
-        <Link href='/projects'>Show More</Link>
-        
-      </span>
-    </button>
-      </div>
+      
     </section>
   );
 }
 
-export default ProjectsSection;
+export default ProjectsSection2;

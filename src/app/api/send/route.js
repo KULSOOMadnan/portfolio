@@ -21,9 +21,9 @@ export async function POST(request, res) {
               subject: subject,
               react:<>
               <h1>{subject}</h1>
+              <p>{message}</p>
               <p>Thank you for contacting us!</p>
               <p>New Message Submitted:</p>
-              <p>{message}</p>
               </>
             });
         
