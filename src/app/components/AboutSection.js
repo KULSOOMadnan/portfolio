@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import Skills from "./Skills";
 
 const TAB_DATA = [
   {
@@ -53,10 +54,14 @@ function AboutSection() {
   };
   return (
     <section id='about' className="text-[grey]  ">
+       {/* <h2 className="text-4xl font-bold text-black mb-4 font-['Great Vibes'] ">About Me</h2> */}
+       <h2 className='text-center lg:text-7xl  sm:text-5xl text-4xl font-extrabold text-brown-500  mb-8 md:mb-12 mt-20'>
+        <span className=" text-[gray] ">About</span> ME
+      </h2>
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/Images/about.png" width={500} height={500} alt='about imag' />
         <div className=' mt-4 md:mt-0 text-left flex  flex-col h-full'>
-          <h2 className="text-4xl font-bold text-black mb-4 font-['Great Vibes'] ">About Me</h2>
+         
           <p className="text-base md:text-lg ">
             I am a passionate front-end developer with expertise in React,
             Next.js, JavaScript, and TypeScript, building modern, responsive,
@@ -95,6 +100,10 @@ function AboutSection() {
           <div className='mt-8 '> {TAB_DATA.find((t) => t.id === tab).content}</div>
         </div>
       </div>
+
+      <div className="border-t-2  mx-auto mb-[52px] max-w-[40%]"></div>
+      <Skills/>
+      
     </section>
   );
 }

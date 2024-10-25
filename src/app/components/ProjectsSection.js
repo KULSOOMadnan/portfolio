@@ -80,8 +80,8 @@ function ProjectsSection() {
   };
   return (
     <section id='projects' >
-      <h2 className='text-center text-4xl font-bold text-black  mb-8 md:mb-12 '>
-         My Projects
+      <h2 className='text-center lg:text-7xl  sm:text-5xl text-4xl font-extrabold text-[gray]  mb-8 md:mb-12 '>
+        <span className=" text-brown-500 ">My</span> Projects
       </h2>
       <div className='text-black flex flex-row justify-center items-center gap-2  py-6'>
         <ProjectTag onClick={ handleTag} name='All' isSelected={tag === 'All'}/>
