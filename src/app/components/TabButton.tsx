@@ -1,12 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 const variants = {
   default: { width: 0 },
   active: { width: "calc(100% - 0.75rem" },
 };
 
-function TabButton({ active, selectTab, children }) {
+interface TABBTN {
+  active  : boolean,
+  selectTab(): void ,
+  children : React.ReactNode
+}
+function TabButton({ active, selectTab, children } : TABBTN) {
   const buttonClassees = active
     ? "text-[grey]"
     : "text-[grey] ";

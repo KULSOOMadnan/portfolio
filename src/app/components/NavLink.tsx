@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-const NavLink = ({ home , href, title }) => {
+interface NAVLINKS {
+  href : string,
+  title : string
+}
+
+const NavLink = ({  href, title } : NAVLINKS) => {
   return (
     
     <Link

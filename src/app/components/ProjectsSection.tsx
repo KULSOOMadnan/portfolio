@@ -67,7 +67,7 @@ function ProjectsSection() {
   const [tag , Settag] = useState('All')
   const ref = useRef(null);
   const isView = useInView(ref , {once : true})
-  const handleTag = (newTag) => {
+  const handleTag = (newTag : string) => {
     Settag(newTag)
   }
   const FilterProjects = ProjectsData.filter((project) => (
@@ -84,9 +84,9 @@ function ProjectsSection() {
         <span className=" text-brown-500 ">My</span> Projects
       </h2>
       <div className='text-black flex flex-row justify-center items-center gap-2  py-6'>
-        <ProjectTag onClick={ handleTag} name='All' isSelected={tag === 'All'}/>
-        <ProjectTag onClick={ handleTag} name='Web' isSelected={tag === 'Web'}/>
-        <ProjectTag onClick={ handleTag} name='Mobile' isSelected={tag === 'Mobile'}/>
+        <ProjectTag onClick={handleTag} name='All' isSelected={tag === 'All'}/>
+        <ProjectTag onClick={handleTag} name='Web' isSelected={tag === 'Web'}/>
+        <ProjectTag onClick={handleTag} name='Mobile' isSelected={tag === 'Mobile'}/>
       </div>
       <ul  ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12 '>
         {FilterProjects.map((project , index ) => (

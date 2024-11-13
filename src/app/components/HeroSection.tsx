@@ -48,23 +48,23 @@ function HeroSection() {
           </p>
           <div className="">
             <Link  href="https://github.com/KULSOOMadnan"
-             className='inline-flex justify-center items-center w-8 h-8 bg-transparent text-xl mb-8 mr-5 mt-4 ml-0 transition duration-[0.3s] ease-in on hover:text-white transform hover:scale-105 hover:-translate-y-1  text-brown-500  border-[gray] border  hover:bg-brown-400  hover:shadow-[0_0_25px_#87561e] rounded-full'>
+             className='inline-flex justify-center items-center w-8 h-8 bg-transparent text-xl mb-8 mr-5 mt-4 ml-0 transition duration-[0.3s] ease-in on hover:text-white transform hover:scale-105 hover:-translate-y-1  text-brown-500  border-[#dfdfdf] border  hover:bg-brown-400  hover:shadow-[0_0_25px_#87561e] rounded-full'>
               <p className="fa-brands fa-github "></p>
             </Link>
             <Link href="https://www.instagram.com" 
-             className='inline-flex justify-center items-center w-8 h-8 bg-transparent text-xl mb-8 mr-5 mt-4 ml-0 transition duration-[0.3s] ease-in on hover:text-white transform hover:scale-105 hover:-translate-y-1  text-brown-500  border-[gray] border hover:bg-brown-400  hover:shadow-[0_0_25px_#87561e] rounded-full'>
+             className='inline-flex justify-center items-center w-8 h-8 bg-transparent text-xl mb-8 mr-5 mt-4 ml-0 transition duration-[0.3s] ease-in on hover:text-white transform hover:scale-105 hover:-translate-y-1  text-brown-500  border-[#dfdfdf] border hover:bg-brown-400  hover:shadow-[0_0_25px_#87561e] rounded-full'>
             {" "}
               <p className="fa-brands fa-instagram"></p>
             </Link>
 
             <Link href="https://www.facebook.com"
-             className='inline-flex justify-center items-center w-8 h-8 bg-transparent text-xl mb-8 mr-5 mt-4 ml-0 transition duration-[0.3s] ease-in on hover:text-white transform hover:scale-105 hover:-translate-y-1  text-brown-500  border-[gray] border hover:bg-brown-400  hover:shadow-[0_0_25px_#87561e] rounded-full'>
+             className='inline-flex justify-center items-center w-8 h-8 bg-transparent text-xl mb-8 mr-5 mt-4 ml-0 transition duration-[0.3s] ease-in on hover:text-white transform hover:scale-105 hover:-translate-y-1  text-brown-500  border-[#dfdfdf] border hover:bg-brown-400  hover:shadow-[0_0_25px_#87561e] rounded-full'>
 
               <p className="fa-brands fa-facebook"></p>
             </Link>
 
             <Link href="https://www.linkedin.com/in/kulsoomadnan/"
-             className='inline-flex justify-center items-center w-8 h-8 bg-transparent text-xl mb-8 mr-5 mt-4 ml-0 transition duration-[0.3s] ease-in on hover:text-white transform hover:scale-105 hover:-translate-y-1  text-brown-500  border-[gray] border hover:bg-brown-400  hover:shadow-[0_0_25px_#87561e] rounded-full'>
+             className='inline-flex justify-center items-center w-8 h-8 bg-transparent text-xl mb-8 mr-5 mt-4 ml-0 transition duration-[0.3s] ease-in on hover:text-white transform hover:scale-105 hover:-translate-y-1  text-brown-500  border-[#dfdfdf] border hover:bg-brown-400  hover:shadow-[0_0_25px_#87561e] rounded-full'>
 
               <p className="fa-brands fa-linkedin"></p>
             </Link>
@@ -77,9 +77,9 @@ function HeroSection() {
              <a href="mailto:adnanirfan282@gmail.com"> Hire Me{" "} </a>
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-brown-800 via-brown-600 to-brown-900 text-black  mt-3 ">
-              <span className="block bg-[rgb(255,255,255)] rounded-full hover:bg-slate-50 px-5 py-2">
+              <a href="https://resume-builder-kulsoom.vercel.app/" className="block bg-[rgb(255,255,255)] rounded-full hover:bg-slate-50 px-5 py-2">
                 Download CV
-              </span>
+              </a>
             </button>
           </div>
         </motion.div>
@@ -100,6 +100,7 @@ function HeroSection() {
           </div>
         </motion.div>
       </div>
+      
     </section>
   );
 }

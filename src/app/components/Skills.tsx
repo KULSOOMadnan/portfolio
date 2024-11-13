@@ -6,47 +6,47 @@ const skills = [
   {
     id: 1,
     title: "Html",
-    percentage: "90",
+    percentage: 90,
   },
   {
     id: 2,
     title: "Css",
-    percentage: "85",
+    percentage: 85,
   },
   {
     id: 3,
     title: "Javascript",
-    percentage: "70",
+    percentage: 70,
   },
   {
     id: 4,
     title: "TypeScript",
-    percentage: "95",
+    percentage: 95,
   },
   {
     id: 5,
     title: "React",
-    percentage: "70",
+    percentage: 70,
   },
   {
     id: 6,
     title: "Next js",
-    percentage: "50",
+    percentage: 50,
   },
   {
     id: 7,
     title: "Bootstrap",
-    percentage: "60",
+    percentage: 60,
   },
   {
     id: 8,
     title: "Tailwind",
-    percentage: "65",
+    percentage: 65,
   },
   {
     id: 9,
     title: "Figma",
-    percentage: "20",
+    percentage: 30,
   },
 ];
 
@@ -93,7 +93,7 @@ function Skills() {
     //   </div>
     // </>
     <>
-  <h2 className="text-center lg:text-5xl sm:text-4xl text-3xl font-extrabold text-brown-500 mb-12 md:mb-12 mt-20">
+  <h2 className="text-center lg:text-4xl  text-2xl font-extrabold text-brown-500 mb-12 md:mb-12 mt-20">
     <span className="text-gray-500">My</span> Skills
   </h2>
 

@@ -92,11 +92,11 @@ function ProjectsSection2() {
   const [tag , Settag] = useState('All')
   const ref = useRef(null);
   const isView = useInView(ref , {once : true})
-  const handleTag = (newTag) => {
+  const handleTag = (newTag : string) => {
     Settag(newTag)
   }
-  const FilterProjects = ProjectsData.filter((project) => (
-    project.tag.includes(tag)
+  const FilterProjects = ProjectsData?.filter((project) => (
+    project?.tag.includes(tag)
   ));
 
   const cardVarients = {
@@ -120,12 +120,12 @@ function ProjectsSection2() {
            variants = {cardVarients} initial ='initial' animate={isView ? 'animate' : 'initial'} transition ={{duration : 0.3 , delay : index * 0.5}}
           > 
           <ProjectsCard 
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            imgUrl={project.images}
-            gitUrl={project.gitUrl}
-            previewUrl={project.previewUrl}
+            key={project?.id}
+            title={project?.title}
+            description={project?.description}
+            imgUrl={project?.images}
+            gitUrl={project?.gitUrl}
+            previewUrl={project?.previewUrl}
           />
           </motion.li>
 

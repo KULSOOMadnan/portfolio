@@ -5,6 +5,7 @@ import NavLink from "./NavLink";
 import  {Bars3Icon , XMarkIcon} from "@heroicons/react/24/solid";
 import MenuOverLay from "./MenuOverLay";
 
+
 const navLinks = [
   {
     title :'Home',
@@ -57,7 +58,7 @@ function NavBar() {
           <ul className="md:flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0 font-semibold ">
             {navLinks.map((link, index) => (
               <li key={index} className='border-b-2 border-transparent hover:border-brown-600 transition duration-300'>
-                <NavLink href={link.path} title={link.title} home={link.home} />
+                <NavLink href={link.path} title={link.title}  />
               </li>
             ))}
           </ul>

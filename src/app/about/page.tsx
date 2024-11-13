@@ -8,9 +8,9 @@ function about() {
   return (
     <div>
       <NavBar/>
-      <containe className='container mt-24  mx-auto  px-12 py-4'>
+      <div  className='container mt-24  mx-auto  px-12 py-4'>
       <AboutSection/>
-      </containe>        
+      </div>        
       <Footer/>  
     </div>
   )

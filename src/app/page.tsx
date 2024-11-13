@@ -14,14 +14,14 @@ function Index () {
     
     <main className='flex min-h-screen flex-col  bg-[#ffffff]' >
       <NavBar/>
-      <containe className='container mt-24  mx-auto  px-12 py-4'>
+      <div className='container mt-24  mx-auto  px-12 py-4'>
 
       <HeroSection/>
       <AboutSection/>
       <ProjectsSection/>
       <EmailSection/>
       <Footer/>
-      </containe>
+      </div>
     </main>
 
   
